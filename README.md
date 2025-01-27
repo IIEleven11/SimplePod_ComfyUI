@@ -84,17 +84,10 @@ Instructions to get a simplepod.ai comfyui instance setup
 
 <p>Now you have to wait for the instance to load the docker image. It will look something like this:</p>
 
-
-<figure class="wp-block-image size-large"><img src="https://commandcentersystems.wordpress.com/wp-content/uploads/2024/11/image-12.png?w=1024" alt="" class="wp-image-69" /></figure>
-
 <p></p>
 
 <p>Step 6. When the instance has loaded up you'll start to see buttons appear. These are different ways to access the data and scripts within the instance. In this case, lets open the WebUI by clicking on the Port 8080 button. You can also get into the jupyter notebook or use SSH if you wish<br></p>
 
-
+<p>The template downloads the Flux model, this model is kind of large so it might take a few minutes before those buttons on your instance appear. It will happen though dont worry</p>
 <p>You are now within the instance and can begin doing your thing as you normally would! </p>
 
-
-<p><br>and in two videos he made:<br><a href="https://youtu.be/WWhNqJEmF9M?si=RhUZhYersAvSZ4wf">https://youtu.be/WWhNqJEmF9M?si=RhUZhYersAvSZ4wf</a><br><a href="https://www.youtube.com/watch?v=7tpWH8\_S8es&amp;t=504s">https://www.youtube.com/watch?v=7tpWH8\_S8es&amp;t=504s</a><br></p>
-
-]]></content:encoded>
