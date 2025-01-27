@@ -86,7 +86,7 @@ Instructions to get a simplepod.ai comfyui instance setup
 
 <p></p>
 
-<p>Step 6. When the instance has loaded up you'll start to see buttons appear. These are different ways to access the data and scripts within the instance. In this case, lets open the WebUI by clicking on the Port 8080 button. You can also get into the jupyter notebook or use SSH if you wish<br></p>
+<p>Step 6. When the instance has loaded up you'll start to see buttons appear. These are different ways to access the data and scripts within the instance. In this case, lets open the WebUI by clicking on the Port 8080 button. You can also get into the jupyter notebook or use SSH if you wish. Jupyter will show a screen asking you for a token. You can see it in the simplepod console or follow the instructions to generate it yourself.<br></p>
 
 <p>The template downloads the Flux model, this model is kind of large so it might take a few minutes before those buttons on your instance appear. It will happen though dont worry</p>
 <p>You are now within the instance and can begin doing your thing as you normally would! </p>
