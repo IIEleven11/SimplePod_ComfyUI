@@ -43,7 +43,7 @@ Instructions to get a simplepod.ai comfyui instance setup
 
 <p>Step 1. Login to Simplepod.ai and click "find instances".</p>
 <p>
-    <img src="Screenshot 2025-01-08 000652.png" width="720" height="340"/>
+    <img src="1.png" width="720" height="340"/>
 </p>
 
 
@@ -51,62 +51,36 @@ Instructions to get a simplepod.ai comfyui instance setup
 <p>Step 2. Select a single RTX 4090. Note: for now stick with a single GPU. Multi GPU training is called distributed data processing or D.D.P for short. This can become extremely complex and in some cases is not supported. You can circle back to learn D.D.P at a later time but ultimately is beyond the scope of this tutorial.</p>
 
 <p>
-    <img src="Screenshot 2025-01-08 000802.png" width="720" height="340"/>
+    <img src="2.png" width="720" height="340"/>
 </p>
 
 
 <p></p>
 
-<p>Step 3. The docker templates page will pop open and from here scroll down until you find "simplepodai/jarodmica-ai-voice-cloning". </p>
+<p>Step 3. The docker templates page will pop open and from here click on the add button". </p>
 
 <p>
-    <img src="Screenshot 2025-01-08 000905.png" width="720" height="340"/>
+    <img src="3.png" width="720" height="340"/>
 </p>
-
-
-
-<p>NOTE: Be aware that the version numbers may change at a later date. This is fine, as long as it says "jarodmica/ai-voice-cloning" you're doing the right thing.</p>
 
 <p></p>
 
-<p>Step 4. This will open up a side panel to your right. Verify your settings match mine. You shouldn't have to change anything.</p>
+<p>Step 4. This will open up a side panel to your right. Name it something, then where it says "Custom repository server Image Name, put this: valyriantech/comfyui-with-flux. Disk size can be whatever you want, expose ports are 22,8080,8188,8888 and the ENV variables are Name:HF_TOKEN and its value would be what you need to get from huggingface.co after making an account and going into your profile to make a token.</p>
 <p>
-    <img src="Screenshot 2025-01-08 001134.png" width="720" height="340"/>
+    <img src="4.png" width="720" height="340"/>
 </p>
 
-
-
-<figure class="wp-block-image size-large"><img src="https://commandcentersystems.wordpress.com/wp-content/uploads/2024/11/image-2.png?w=679" alt="" class="wp-image-57" /></figure>
-
-
-
-
-<p>Step 5. This will send it to your private template list. Scroll up and click use.</p>
+<p>Step 5. Now you can click save template then run.</p>
 <p>
-    <img src="Screenshot 2025-01-08 001229.png" width="720" height="340"/>
+    <img src="5.png" width="720" height="340"/>
 </p>
-
-
-<figure class="wp-block-image size-large"><img src="https://commandcentersystems.wordpress.com/wp-content/uploads/2024/11/image-9.png?w=123" alt="" class="wp-image-66" /></figure>
-
-
-<figure class="wp-block-image size-large"><img src="https://commandcentersystems.wordpress.com/wp-content/uploads/2024/11/image-10.png?w=104" alt="" class="wp-image-67" /></figure>
-
-
 
 
 <p>You will get a quick popup. Click it to go to your instance. If you're not fast enough you can click "My Instances" on the left side panel to get to the same place.<br></p>
 
 <p>
-    <img src="Screenshot 2025-01-08 001240.png" width="720" height="340"/>
+    <img src="6.png" width="720" height="340"/>
 </p>
-<p>
-    <img src="Screenshot 2025-01-08 001422.png" width="720" height="340"/>
-</p>
-
-
-<figure class="wp-block-image size-large"><img src="https://commandcentersystems.wordpress.com/wp-content/uploads/2024/11/image-11.png?w=550" alt="" class="wp-image-68" /></figure>
-
 
 <p>Now you have to wait for the instance to load the docker image. It will look something like this:</p>
 
@@ -115,25 +89,10 @@ Instructions to get a simplepod.ai comfyui instance setup
 
 <p></p>
 
-<p>Step 6. When the instance has loaded up you'll start to see buttons appear. These are different ways to access the data and scripts within the instance. In this case, lets open the WebUI by clicking on the Port 7860 button.<br></p>
+<p>Step 6. When the instance has loaded up you'll start to see buttons appear. These are different ways to access the data and scripts within the instance. In this case, lets open the WebUI by clicking on the Port 8080 button. You can also get into the jupyter notebook or use SSH if you wish<br></p>
 
 
-
-
-
-<figure class="wp-block-image size-large"><img src="https://commandcentersystems.wordpress.com/wp-content/uploads/2024/11/image-13.png?w=1024" alt="" class="wp-image-71" /></figure>
-
-
-
-
-<p>You are now within the instance and can begin training your model and or running inference. </p>
-
-
-
-
-<p>For more specifics on how to train a model take a look at Jarod Mica's repo where he goes over the whole process in detail <br><a href="https://github.com/JarodMica/ai-voice-cloning">https://github.com/JarodMica/ai-voice-cloning</a></p>
-
-
+<p>You are now within the instance and can begin doing your thing as you normally would! </p>
 
 
 <p><br>and in two videos he made:<br><a href="https://youtu.be/WWhNqJEmF9M?si=RhUZhYersAvSZ4wf">https://youtu.be/WWhNqJEmF9M?si=RhUZhYersAvSZ4wf</a><br><a href="https://www.youtube.com/watch?v=7tpWH8\_S8es&amp;t=504s">https://www.youtube.com/watch?v=7tpWH8\_S8es&amp;t=504s</a><br></p>
