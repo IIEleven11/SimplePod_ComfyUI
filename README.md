@@ -60,7 +60,7 @@ Instructions to get a simplepod.ai comfyui instance setup
 <p>Step 3. The docker templates page will pop open and from here click on the add button". </p>
 
 <p>
-    <img src="3.png" width="720" height="340"/>
+    <img src="3_1.png" width="720" height="340"/>
 </p>
 
 <p></p>
